@@ -1,0 +1,18 @@
+<div class = "box">
+	<div id = "top">
+		<ul style="list-style: none">
+			<li><p style="position: relative;bottom: 10px;">施工缓冲天数：</p></li>
+			<li><input onkeyup="value=value.replace(/[^\d]/g,'')" type = "text" id = "shigong" style="height: 28px;line-height: 1.3;border-width: 1px;border-style: solid;background-color: #fff;border-radius: 2px;border-color: #E6E6E6;padding-left: 10px;width:85%;position: relative;top:10px;"></li>
+			<li><p style="position: relative;top: 30px;">竣工缓冲天数</p></li>
+			<li><input onkeyup="value=value.replace(/[^\d]/g,'')" type ="text" id ="jungong" style="position:relative;top: 50px; height: 28px;line-height: 1.3;border-width: 1px;border-style: solid;background-color: #fff;border-radius: 2px;border-color: #E6E6E6;padding-left:10px;width:85%;"></li>
+			<li><button id="btn_yujing"style="position:relative;top:110px;display:inline-block;height:38px;line-height:38px;padding:0 18px;background-color:#c44242;color:#fff;white-space:nowrap;text-align:center;
+				font-size:14px;border: none;cursor: pointer;border-radius:2px;" >查看预警</button></li>
+			<li><button id="btn_clear"style="position:relative;top:72px;display:inline-block;height:38px;line-height:38px;padding:0 18px;background-color:#1a95ce;color:#fff;white-space:nowrap;text-align:center;
+				font-size:14px;border: none;cursor: pointer;border-radius:2px;left:52%" >清除预警</button></li>
+			
+		</ul>
+		<div id="box_promptbox" style="height:10%;position:absolute;top:95%;left:50px;width: 50%;"></div>
+
+	</div>
+
+</div>

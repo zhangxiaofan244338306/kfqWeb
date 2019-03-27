@@ -1,0 +1,22 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": "1522285048145r43717288897121437_0",
+      "url": "http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/MapServer/0",
+      "name": "工业用地",
+      "placeholder": "",
+      "searchFields": [
+        "YDDW"
+      ],
+      "displayField": "DKSYH",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/login.css"/>
+		<script type="text/javascript" src="js/jquery.min.1.7.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+	<script  type="text/javascript">
+		
+	function check(){
+		$.cookie('userName1', 'admin');  
+		window.location.href="index.html";
+//		var un=document.getElementById("username");
+//		var pd=document.getElementById("password");		 
+//		if(un.value==""){
+//			alert("请输入用户名");
+//			un.focus();
+//		}		
+//		else if(pd.value==""){
+//			alert("请输入密码");	
+//			pd.focus();
+//		}			
+//		else{
+//			alert("提交成功");
+//		}			
+	}
+
+//	function checkUserName(username){
+//      var reg = /^(\w){3,10}$/; // 用户名由3-10位的字母、数字和下划线组成
+//      return reg.test(username);
+//  }
+//  function checkPassword(password){
+//      var reg = /^[A-Za-z]{1}([A-Za-z0-9]|[._]){5,19}$/ ; // 密码由6-20位的字母、数字、下划线和点“.”组成
+//      return reg.test(password);
+//  }
+//  function check(){
+//  	var un=document.getElementById("username");
+//		var pd=document.getElementById("password");	
+//  	if(un.value==""){
+//			alert("请输入用户名");
+//			un.focus();
+//  	}
+//  	else if(!checkUserName(un.value))
+//  	{
+//   		alert("用户名应由3-10位的字母、数字和下划线组成，请重新输入！");
+//   		un.focus();
+//  	} 
+//  	else if(pd.value==""){
+//			alert("请输入密码");	
+//			pd.focus();
+//		}
+//  	else if(!checkPassword(pd.value))
+//  	{
+//   		alert("密码应由6-20位的字母、数字、下划线和点“.”组成，请重新输入！");
+//   		pd.focus();
+//  	}
+//  	else{
+//			alert("提交成功");
+// 	}
+//    
+//  }
+    
+    function resetbtn(){
+		document.getElementById("username").value="";
+		document.getElementById("password").value="";
+	}
+//  function login()
+//  {
+//  	var username =document.getElementById("username").value;
+//      var password = document.getElementById("password").value;
+//      if(username == ""){
+//           alert("请输入用户名");
+//           return false;
+//       }else if(password == ""){
+//           alert("请输入密码");
+//           return false;
+//       }
+//       $.ajax({
+//           type:"get",
+//           url:"http://zj081:8015/JYService.asmx/CheckAdmin?pUsername=yzj&pPassword=321,
+//           dataType:'json',
+//           success:function(msg){
+//           	var data=msg;
+//               if(msg==1){
+//                     window.location.href = "{:U('Index/personal')}";   
+//               }else{
+//                   alert("登录失败，请重试!");
+//               }
+//           }
+//       });
+//  }
+	</script>
+	</head>
+	<body >
+	
+<div class="content" style="position:absolute; width:100%; height:100%; z-index:-1;">
+		
+  	<div class="login" >	  		
+      	<div class="user">
+            <input type="text" id="username" placeholder="用户名" value="测试" style="height: 30px; width:100px; 
+            	border: none; outline: none; background: rgba(0,0,0,0);"/>
+      	</div>
+      	<div class="pword">
+            <input type="password" id="password" placeholder="密码" value="111" style="height: 30px; width: 100px; 
+            	border: none; outline: none; background: rgba(0,0,0,0);"/>
+     	</div>
+     	<div class="allbutton">
+     		<!--<input class="button1" type="button" value="登录">-->
+     		<button id="b1" class="button1" onclick="check()">登录</button>
+        	<button class="button2" onclick="resetbtn()">重置</button>           	
+     	</div>
+     	<div class="bgi"> 		
+		</div>
+		<div class="title">
+			<p>扬州市经济开发区土地节约集约综合管理系统</p>
+		</div>
+  	</div> 
+</div>
+
+	</body>
+</html>

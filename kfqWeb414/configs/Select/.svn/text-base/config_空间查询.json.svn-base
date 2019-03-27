@@ -1,0 +1,10 @@
+{
+  "selectionColor": "#00FFFF",
+  "selectionMode": "wholly",
+  "allowExport": true,
+  "geometryTypes": [
+    "EXTENT",
+    "CIRCLE",
+    "POLYGON"
+  ]
+}

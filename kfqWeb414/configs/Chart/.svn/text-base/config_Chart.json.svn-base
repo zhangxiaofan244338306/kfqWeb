@@ -1,0 +1,227 @@
+{
+  "charts": [
+    {
+      "url": "http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/MapServer/0",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "name": "按所在园区统计企业个数",
+      "description": "",
+      "mode": "count",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "highLightColor": "#ff0000",
+      "webMapLayerId": "1522215146278r6749430809899504_0",
+      "column": {
+        "colors": [
+          "#5d9cd3"
+        ],
+        "horizontalAxis": true,
+        "verticalAxis": true
+      },
+      "pie": {
+        "colors": [
+          "#72ad4c",
+          "#4673c2",
+          "#febf29",
+          "#44682e",
+          "#274577",
+          "#987214"
+        ],
+        "label": true
+      },
+      "categoryField": "SZYQ",
+      "sortOrder": "asc"
+    },
+    {
+      "url": "http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/MapServer/0",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "name": "建设状况统计企业个数",
+      "description": "",
+      "mode": "count",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "highLightColor": "#ff0000",
+      "webMapLayerId": "1522227993639r8649161546966781_0",
+      "column": {
+        "colors": [
+          "#5d9cd3"
+        ],
+        "horizontalAxis": true,
+        "verticalAxis": true
+      },
+      "pie": {
+        "colors": [
+          "#72ad4c",
+          "#4673c2",
+          "#febf29",
+          "#44682e",
+          "#274577",
+          "#987214"
+        ],
+        "label": true
+      },
+      "categoryField": "JSZK",
+      "sortOrder": "asc"
+    },
+    {
+      "url": "http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/MapServer/0",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "name": "按产业类别统计企业个数",
+      "description": "",
+      "mode": "count",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "highLightColor": "#ff0000",
+      "webMapLayerId": "1522227993639r8649161546966781_0",
+      "column": {
+        "colors": [
+          "#5d9cd3"
+        ],
+        "horizontalAxis": true,
+        "verticalAxis": true
+      },
+      "pie": {
+        "colors": [
+          "#5d9cd3",
+          "#eb7b3a",
+          "#a5a5a5",
+          "#febf29",
+          "#4673c2",
+          "#72ad4c"
+        ],
+        "label": true
+      },
+      "categoryField": "CYLB",
+      "sortOrder": "asc"
+    },
+    {
+      "url": "http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/MapServer/0",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "name": "按节约等级统计用地单位个数",
+      "description": "",
+      "mode": "count",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "highLightColor": "#ff0000",
+      "webMapLayerId": "1522229668665r017787409611416116_0",
+      "column": {
+        "colors": [
+          "#5d9cd3"
+        ],
+        "horizontalAxis": true,
+        "verticalAxis": true
+      },
+      "pie": {
+        "colors": [
+          "#5d9cd3",
+          "#eb7b3a",
+          "#a5a5a5",
+          "#febf29",
+          "#4673c2",
+          "#72ad4c"
+        ],
+        "label": true
+      },
+      "bar": {
+        "colors": [
+          "#5d9cd3"
+        ],
+        "horizontalAxis": true,
+        "verticalAxis": true
+      },
+      "categoryField": "JYDJ",
+      "sortOrder": "asc"
+    }
+  ]
+}

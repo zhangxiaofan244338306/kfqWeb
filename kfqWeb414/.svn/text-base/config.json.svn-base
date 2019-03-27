@@ -1,0 +1,430 @@
+{
+  "theme": {
+    "name": "LaunchpadTheme",
+    "styles": [
+      "default",
+      "style2",
+      "style3"
+    ],
+    "version": "2.4"
+  },
+  "useportal": false,
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "",
+  "subtitle": "",
+  "keepAppState": false,
+  "logo": "",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "dynamicLayer":"http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/MapServer",
+  "featureLayer":"http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/FeatureServer/0",
+  "dynamicQueryLayer":"http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/MapServer/0",
+  "labelLayer":"http://112.4.212.98:6080/arcgis/rest/services/KFQ/Label/MapServer",
+  "roadLayer":"http://112.4.212.98:6080/arcgis/rest/services/KFQ/Road/MapServer",
+  "XZJXLayer":"http://192.168.1.166:6080/arcgis/rest/services/KFQ/XZJX/MapServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 10,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.4",
+        "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_24",
+        "name": "AnchorBarController"
+      },
+      {
+        "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+        "position": {
+          "left": 15,
+          "top": 17,
+          "width": 670,
+          "height": 46,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "themes_LaunchpadTheme_widgets_Header_Widget_25",
+        "name": "Header"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 350,
+          "top": 25,
+          "width": 300,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_Search_Widget_26",
+        "name": "Search",
+        "config": "configs/Search/config_Search.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 20,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_OverviewMap_Widget_27",
+        "name": "OverviewMap",
+        "config": "configs/OverviewMap/config_OverviewMap.json"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 25,
+          "top": 95,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_ZoomSlider_Widget_28",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 25,
+          "top": 175,
+          "relativeTo": "map"
+        },
+        "id": "widgets_HomeButton_Widget_29",
+        "name": "HomeButton",
+        "version": "2.4"
+      },
+
+      {
+        "uri": "",
+        "version": "2.4",
+        "position": {
+          "right": 20,
+          "bottom": 80,
+          "relativeTo": "map"
+        },
+        "closeable": true,
+        "id": "widgets_AttributeTable_Widget_31",
+        "placeholderIndex": 1
+      },
+
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.4",
+        "id": "widgets_Splash_Widget_34",
+        "name": "Splash"
+      },
+      {
+        "position": {
+          "right": 100,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_35"
+      },
+      {
+        "position": {
+          "right": 150,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_36"
+      },
+      {
+        "position": {
+          "right": 200,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 4,
+        "id": "_37"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 255,
+          "left": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_ExtentNavigate_Widget_38",
+        "name": "ExtentNavigate"
+      },{
+        "uri": "widgets/Measure_Length/Widget",
+        "position": {
+          "left": 25,
+          "top": 335,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "_40",
+        "name": "Measure_Length"
+      },{
+        "uri": "widgets/Measure_Area/Widget",
+        "position": {
+          "left": 25,
+          "top": 385,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "_41",
+        "name": "Measure_Area"
+      },{
+        "uri": "widgets/Clear/Widget",
+        "position": {
+          "left": 25,
+          "top": 435,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "_42",
+        "name": "Clear"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "mapOptions": {
+    	"logo" : false
+    },
+    "id": "map",
+    "basemaps": [
+    	
+			{
+				"label": "底图",
+				"url": "http://112.4.212.98:6080/arcgis/rest/services/KFQ/BaseMap/MapServer",
+				"type": "tiled",
+				"visible": true
+			}
+		],
+		"operationallayers": []
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.4",
+        "id": "widgets_LayerList_Widget_18",
+        "name": "LayerList",
+        "index": 2
+      },
+      
+      {
+        "name": "Query",
+        "version": "2.4",
+        "uri": "widgets/Query/Widget",
+        "config": "configs/Query/config_属性查询.json",
+        "index": 4,
+        "id": "widgets_Query_Widget_20",
+        "label": "属性查询"
+      },
+      {
+        "name": "Select",
+        "label": "空间查询",
+        "version": "2.4",
+        "uri": "widgets/Select/Widget",
+        "config": "configs/Select/config_空间查询.json",
+        "index": 5,
+        "id": "widgets_Select_Widget_21"
+      },
+      {
+        "name": "Chart",
+        "version": "2.4",
+        "uri": "widgets/Chart/Widget",
+        "config": "configs/Chart/config_Chart.json",
+        "index": 6,
+        "id": "widgets_Chart_Widget_39"
+      },
+      {
+        "name": "AddData",
+        "version": "2.4",
+        "uri": "widgets/AddData/Widget",
+        "config": "configs/AddData/config_AddData.json",
+        "index": 8,
+        "id": "widgets_AddData_Widget_23"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+          "position": {
+            "bottom": 0,
+            "height": 40,
+            "width": "100%",
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "height": 46,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 10,
+            "top": 10,
+            "right": 10,
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 20,
+            "top": 20
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 160,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 75,
+            "relativeTo": "map"
+          }
+        },
+
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.4",
+          "position": {
+            "left": 10,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "closeable": true
+        },
+
+
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.4"
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 195,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 155,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "right": 10,
+            "bottom": 238,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel"
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "/webappbuilder/apps/8/configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.4",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  }
+}

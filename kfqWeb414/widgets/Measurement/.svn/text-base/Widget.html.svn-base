@@ -1,0 +1,5 @@
+<div>
+	<button id="btn_length">量长度</button>
+	<button id="btn_area" style="">测面积</button>	
+	
+</div>

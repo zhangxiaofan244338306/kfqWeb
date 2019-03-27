@@ -1,0 +1,414 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "",
+  "labelResults": "",
+  "queries": [
+    {
+      "url": "http://112.4.212.98:6080/arcgis/rest/services/YSJD/JYYD/MapServer/6",
+      "name": "工业用地481",
+      "icon": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "SZC",
+              "label": "SZC",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorContains",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "所在村 包含",
+              "hint": "村名",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": ""
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{DKSYH}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YSDM",
+            "label": "要素代码",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DKSYH",
+            "label": "地块索引号",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TDSYQR",
+            "label": "土地使用权人",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TDZL",
+            "label": "土地座落",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "XZQDM",
+            "label": "行政区代码",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SZX",
+            "label": "所在县（市、区）",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SZXZ",
+            "label": "所在乡镇",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SZC",
+            "label": "所在村",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "KFQMC",
+            "label": "开发区名称",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YDDW",
+            "label": "用地单位名称",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "QSXZ",
+            "label": "权属性质",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SYQLX",
+            "label": "使用权类型",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PZYT",
+            "label": "批准用途",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SJYT",
+            "label": "实际用途",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GHYT",
+            "label": "规划用途",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TJYT",
+            "label": "统计用途",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TDMJ",
+            "label": "土地面积",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PZMJ",
+            "label": "批准面积",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DJMJ",
+            "label": "登记面积",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YJCMJ",
+            "label": "已建成面积",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "LSYLWTSJMJ",
+            "label": "历史遗留问题涉及面积",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JSZK",
+            "label": "建设状况",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JZMJ",
+            "label": "建筑面积",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JZJDMJ",
+            "label": "建筑基底面积",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SFYDDQ",
+            "label": "是否一地多企",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DJSR",
+            "label": "地均营业收入",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DJSS",
+            "label": "地均税收",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DJCYRY",
+            "label": "地均从业人员",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GDFS",
+            "label": "供地方式",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YDXWFSSJ",
+            "label": "用地行为发生时间",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TDYTQ",
+            "label": "土地用途区",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JSYDGZQ",
+            "label": "建设用地管制区",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JCSSPTSP",
+            "label": "基础设施配套水平",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "BZ",
+            "label": "备注",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape_Length",
+            "label": "Shape_Length",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape_Area",
+            "label": "Shape_Area",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "keepResultsOnMapAfterCloseWidget": true,
+      "enableExport": true,
+      "singleResultLayer": true,
+      "webMapLayerId": null
+    }
+  ]
+}

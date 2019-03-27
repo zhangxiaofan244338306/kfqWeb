@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search
+END
+ResultsPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/ResultsPane.js
+END
+Paging.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/Paging.js
+END
+SearchPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/SearchPane.js
+END
+SearchContext.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/SearchContext.js
+END
+LayerListPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/LayerListPane.js
+END
+util.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/util.js
+END
+SearchBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/SearchBox.js
+END
+AddFromUrlDialog.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/AddFromUrlDialog.js
+END
+AddFromFilePane.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/AddFromFilePane.js
+END
+BBoxOption.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/BBoxOption.js
+END
+ScopeOptions.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/ScopeOptions.js
+END
+ResultCount.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/ResultCount.js
+END
+SearchComponent.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/SearchComponent.js
+END
+ItemCard.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/ItemCard.js
+END
+TypeOptions.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/TypeOptions.js
+END
+SortOptions.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/SortOptions.js
+END
+LayerLoader.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/LayerLoader.js
+END
+AddFromUrlPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/KFQ_WEB/!svn/ver/22/widgets/AddData/search/AddFromUrlPane.js
+END

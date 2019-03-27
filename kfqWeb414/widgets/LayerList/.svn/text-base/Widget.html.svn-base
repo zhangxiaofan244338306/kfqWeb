@@ -1,0 +1,31 @@
+<div class="list">
+	<table class="layer-table" style="width: 100%; height: 60%;" cellspacing="15">
+		<tr>
+			<td style="width: 20%;"><img src="widgets/LayerList/images/land.png" class="imgSize" /></td>
+			<td style="width: 40%;">工业用地</td>
+			<td><label><input class="mui-switch" id="checkeBoxGYYD" value="1" type="checkbox" checked></label></td>
+		</tr>
+		<tr>
+			<td><img src="widgets/LayerList/images/level.png" class="imgSize" /></td>
+			<td>节约等级</td>
+			<td><label><input class="mui-switch" id="checkeBoxJYDJ" value="1" type="checkbox" ></label></td>
+		</tr>
+		<tr>
+			<td><img src="widgets/LayerList/images/unit.png" class="imgSize"/></td>
+			<td>用地单位</td>
+			<td><label><input class="mui-switch" id="checkeBoxYDDW" value="1" type="checkbox" ></label></td>
+		</tr>
+		<tr>
+			<td><img src="widgets/LayerList/images/Road.png" class="imgSize"/></td>
+			<td>道路</td>
+			<td><label><input class="mui-switch" id="checkeBoxDL" value="1" type="checkbox" ></label></td>
+		</tr>
+		<tr>
+			<td><img src="widgets/LayerList/images/line.png" class="imgSize" /></td>
+			<td>行政界线</td>
+			<td><label><input class="mui-switch" id="checkeBoxXZJX" value="1" type="checkbox" ></label></td>
+		</tr>
+		
+
+	</table>
+</div>

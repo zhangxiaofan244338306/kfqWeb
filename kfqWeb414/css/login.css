@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	margin:0 auto;
+	position: fixed;
+	background-image: url(../img/login.png);
+	background-size: cover;
+}
+.bgi{
+	background-image:url(../img/login1.png);
+	width: 1024px; 
+	height: 768px;
+	margin-top: -370px;
+	margin-left: 15px;
+	position: absolute;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.login{
+	position:absolute; 
+	top:45%;
+	left:50%;
+	margin-top:60px;
+	margin-left:140px;
+	width:1600px; 
+	height: 900px;
+	border-radius:10px;
+	position: fixed;
+	
+	
+}
+.user{
+	margin-left: 100px;
+	margin-bottom: 48px;
+}
+.pword{
+	margin-left: 100px;
+	margin-bottom: -10px;
+}
+.allbutton{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+.button1{
+	position: relative;
+	margin-right:50px;
+	padding:10px 25px;
+	background:#1a6aa7; 
+	border-radius:5px;
+	border:#0a3859;
+	display: inline;
+	color: #FFFFFF;
+	font-size: 16px;
+	cursor: pointer;	
+}
+.button1:hover{
+	color: yellow;
+}
+
+.button2{
+	position: relative;
+	padding:10px 25px;
+	background:#1a6aa7; 
+	border-radius:5px; 
+	border:#0a3859;
+	margin-top: 50px;
+	margin-left: 30px;
+	color: #FFFFFF;
+	display: inline;
+	font-size: 16px;
+	cursor: pointer;
+}
+.button2:hover{
+	color: yellow;
+}
+.title p{
+	list-style-type:none;
+	font-size: 48px;
+	margin-top: -550px;
+	text-align: center;
+	margin-left: -1900px;
+	color:white;
+	/*text-shadow: 15px 10px 5px #000000;*/
+	font-weight: bold;
+}
+

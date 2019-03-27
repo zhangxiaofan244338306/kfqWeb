@@ -1,0 +1,540 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "查询条件",
+  "labelResults": "查询结果",
+  "queries": [
+    {
+      "url": "http://112.4.212.98:6080/arcgis/rest/services/KFQ/GYYD/FeatureServer/0",
+      "name": "工业用地",
+      "icon": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "YDDW",
+              "label": "YDDW",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorContains",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "请输入用地单位名称",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+       
+          {
+            "fieldObj": {
+              "name": "SFGSQY",
+              "label": "SFGSQY",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "请选择是否规上企业",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "JSZK",
+              "label": "JSZK",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "请选择建设状况",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "SZYQ",
+              "label": "SZYQ",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "请选择所在园区",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "JYDJ",
+              "label": "JYDJ",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "请选择节约等级",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "GDFS",
+              "label": "GDFS",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "请选择供地方式",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "CYLB",
+              "label": "CYLB",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "请选择产业类别",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": ""
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{YDDW}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DKSYH",
+            "label": "地块索引号",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YDDW",
+            "label": "用地单位",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CYLB",
+            "label": "产业类别",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JYDJ",
+            "label": "节约等级",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SFGSQY",
+            "label": "是否规上企业",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YDDWSX",
+            "label": "用地单位缩写",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SZYQ",
+            "label": "所在园区",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SZXZ",
+            "label": "所在乡镇",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SZC",
+            "label": "所在村",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JSZK",
+            "label": "建设状况",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CLSJ",
+            "label": "出让时间",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "KGSJ",
+            "label": "开工时间",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JGSJ",
+            "label": "竣工时间",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GDFS",
+            "label": "供地方式",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PHOTO",
+            "label": "照片号",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TDZL",
+            "label": "土地坐落",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CLMJ",
+            "label": "出让面积",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JZMJ",
+            "label": "建筑面积",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JZJD",
+            "label": "建筑基底面积",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "RJL",
+            "label": "容积率",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "JZMD",
+            "label": "建筑密度",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GDZCTZ",
+            "label": "固定资产投资 ",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DJGDZCTZ",
+            "label": "地均固定资产投资",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ZCZ",
+            "label": "总产值 ",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DJCZ",
+            "label": "地均产值",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ZXSSL",
+            "label": "总销售收入",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DJXSSL",
+            "label": "地均销售收入",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "LKSS",
+            "label": "入库税收",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "MJSS",
+            "label": "亩均税收",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YDL",
+            "label": "用电量",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YSL",
+            "label": "用水量 ",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "YQL",
+            "label": "用气量",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "WRPFL",
+            "label": "污染排放量",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "BZ",
+            "label": "备注",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "keepResultsOnMapAfterCloseWidget": true,
+      "enableExport": true,
+      "singleResultLayer": true,
+      "webMapLayerId": null
+    }
+  ]
+}

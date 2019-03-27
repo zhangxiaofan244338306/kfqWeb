@@ -1,0 +1,7 @@
+.jimu-widget-measurement .bto2{
+	background-image: url(widgets/Measurement/images/area.png);
+	height: 75px;
+	width: 100px;
+	cursor: pointer;
+	margin-left: 50px
+}

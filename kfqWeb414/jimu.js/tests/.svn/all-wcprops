@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests
+END
+test-panelmanager.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-panelmanager.js
+END
+test-iframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-iframe.html
+END
+test-dijit.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-dijit.html
+END
+testModules.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/testModules.js
+END
+config-ok.json
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/config-ok.json
+END
+config-bad-format.json
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/config-bad-format.json
+END
+test-utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-utils.js
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/runTests.html
+END
+test-run.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-run.js
+END
+test-datamanager.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-datamanager.js
+END
+test-temp.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-temp.js
+END
+test-config.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-config.js
+END
+webscene.json
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/webscene.json
+END
+test-widgetmanager.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-widgetmanager.js
+END
+test-order-loader.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-order-loader.js
+END
+test-versionmanager.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-versionmanager.js
+END
+test-css.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-css.html
+END
+my-test-loader.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/my-test-loader.html
+END
+test-jquery-loader.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/KFQ_WEB/!svn/ver/22/jimu.js/tests/test-jquery-loader.js
+END

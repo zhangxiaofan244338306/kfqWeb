@@ -1,0 +1,254 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": true,
+    "toolbarOptions": {
+      "mergeVisible": false,
+      "cutVisible": false,
+      "reshapeVisible": false
+    },
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "1522221309431r9992024085431767"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "DKSYH",
+            "label": "地块索引号",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "YDDW",
+            "label": "用地单位",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "SFGSQY",
+            "label": "是否规上企业",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "YDDWSX",
+            "label": "用地单位缩写",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "JYDJ",
+            "label": "节约等级",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "JYLX",
+            "label": "节约类型",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "GDFS",
+            "label": "供地方式",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "PHOTO",
+            "label": "照片号",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "QSXZ",
+            "label": "权属性质",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "SZXZ",
+            "label": "所在乡镇",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "SZC",
+            "label": "所在村",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CYLB",
+            "label": "产业类别",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "BZ",
+            "label": "备注",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "HYLB",
+            "label": "行业类别",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TDZL",
+            "label": "土地坐落",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "JSZK",
+            "label": "建设状况",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CLSJ",
+            "label": "出让时间",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CLMJ",
+            "label": "出让面积",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "JZMJ",
+            "label": "建筑面积",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "JZJD",
+            "label": "建筑基底面积",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "RJL",
+            "label": "容积率",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "JZMD",
+            "label": "建筑密度",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "GDZCTZ",
+            "label": "固定资产投资\n\n",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DJGDZCTZ",
+            "label": "地均固定资产投资\n\n地均固定资产投资",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "ZCZ",
+            "label": "总产值\n",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DJCZ",
+            "label": "地均产值",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "ZXSSL",
+            "label": "总销售收入",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DJXSSL",
+            "label": "地均销售收入",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "LKSS",
+            "label": "入库税收",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MJSS",
+            "label": "亩均税收",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "KGSJ",
+            "label": "开工时间",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "JGSJ",
+            "label": "竣工时间",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "YDL",
+            "label": "用电量",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "YSL",
+            "label": "用水量\n",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "YQL",
+            "label": "用气量",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "WRPFL",
+            "label": "污染排放量\n污染排放量",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "SZYQ",
+            "label": "所在园区",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "useFilterEdit": false,
+    "autoApplyEditWhenGeometryIsMoved": false,
+    "snappingTolerance": 15,
+    "popupTolerance": 5,
+    "stickyMoveTolerance": 0
+  }
+}

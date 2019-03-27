@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates
+END
+ShareOptions.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/ShareOptions.html
+END
+_BasicServiceChooserContent.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_BasicServiceChooserContent.html
+END
+FeaturelayerChooserFromPortal.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/FeaturelayerChooserFromPortal.html
+END
+_BasicServiceChooser.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_BasicServiceChooser.html
+END
+Filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/Filter.html
+END
+_SingleFilter.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_SingleFilter.html
+END
+SymbolChooser.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/SymbolChooser.html
+END
+SpatialFilterByFeatures.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/SpatialFilterByFeatures.html
+END
+FeatureSetChooserForMultipleLayers.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/FeatureSetChooserForMultipleLayers.html
+END
+GpChooserFromPortal.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/GpChooserFromPortal.html
+END
+ColorRecords.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/ColorRecords.html
+END
+EditorColorPalette.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/EditorColorPalette.html
+END
+ExportChooser.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/ExportChooser.html
+END
+ImageChooser.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/ImageChooser.html
+END
+DrawBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/DrawBox.html
+END
+ReportTemplate.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/ReportTemplate.html
+END
+_Transparency.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_Transparency.html
+END
+FeaturelayerSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/FeaturelayerSource.html
+END
+LayerChooserFromMapWithDropbox.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/LayerChooserFromMapWithDropbox.html
+END
+ShareLink.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/ShareLink.html
+END
+SearchDistance.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/SearchDistance.html
+END
+RelationshipConfig.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/RelationshipConfig.html
+END
+GpSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/GpSource.html
+END
+_SingleFilterParameter.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_SingleFilterParameter.html
+END
+RendererChooser.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/RendererChooser.html
+END
+PopupConfig.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/PopupConfig.html
+END
+AddItemForm.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/AddItemForm.html
+END
+TabContainer3.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/TabContainer3.html
+END
+ItemSelector.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/ItemSelector.html
+END
+LayerChooser.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/LayerChooser.html
+END
+_FilterSet.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_FilterSet.html
+END
+QueryableServiceChooserFromPortal.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/QueryableServiceChooserFromPortal.html
+END
+LoadingShelter.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/LoadingShelter.html
+END
+_TreeNode.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_TreeNode.html
+END
+_CropImage.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_CropImage.html
+END
+_ItemTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/_ItemTable.html
+END
+QueryableLayerSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/dijit/templates/QueryableLayerSource.html
+END

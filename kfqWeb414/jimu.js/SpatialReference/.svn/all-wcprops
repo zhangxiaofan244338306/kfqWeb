@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference
+END
+srUtils.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference/srUtils.js
+END
+transform.json
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference/transform.json
+END
+wkid.json
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference/wkid.json
+END
+wkidUtils.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference/wkidUtils.js
+END
+unitUtils.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference/unitUtils.js
+END
+utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference/utils.js
+END
+wkidDetails.json
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference/wkidDetails.json
+END
+cs.json
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/KFQ_WEB/!svn/ver/14/jimu.js/SpatialReference/cs.json
+END
